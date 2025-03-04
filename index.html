@@ -1,23 +1,205 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Web Cá Nhân</title>
+    <title>Trang Cá Nhân Chuyên Nghiệp</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Trần Minh Hiếu</h1>
-    <div class="thongtin">
-        <b>Tên:</b> <i>Trần Minh Hiếu</i>
-    </div>
+    <!-- Header với ảnh đại diện -->
+    <header>
+        <div class="profile-container">
+            <div class="profile-image">
+                <img src="avata.jpg" alt="Profile Image">
+            </div>
+            <h1 class="profile-name">Trần Minh Hiếu</h1>
+            <p class="profile-title">Chuyên Gia Phát Triển Web | Thiết Kế UX/UI | Nhà Tư Vấn Số Hóa</p>
+            <div class="social-links">
+                <a href="#">FB</a>
+                <a href="#">LI</a>
+                <a href="#">TW</a>
+                <a href="#">IG</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Phần Giới Thiệu -->
+    <section id="about">
+        <h2 class="section-title">Về Tôi</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Xin chào! Tôi là Nguyễn Thanh, một chuyên gia phát triển web và thiết kế UX/UI với hơn 8 năm kinh nghiệm trong lĩnh vực công nghệ thông tin. Tôi đam mê tạo ra những trải nghiệm số hóa tuyệt vời kết hợp giữa thiết kế thẩm mỹ và chức năng hiệu quả.</p>
+                <p>Tôi luôn tìm kiếm những thách thức mới và cơ hội để phát triển kỹ năng của mình. Mục tiêu của tôi là tạo ra những sản phẩm số không chỉ đẹp mắt mà còn giải quyết được vấn đề thực tế và mang lại giá trị cho người dùng.</p>
+                <p>Ngoài công việc, tôi còn là một người yêu thích nhiếp ảnh, đam mê du lịch và thường xuyên tham gia các hoạt động tình nguyện trong cộng đồng công nghệ địa phương.</p>
+            </div>
+            <div class="skills">
+                <h3>Kỹ Năng Chuyên Môn</h3>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>HTML/CSS</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 95%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>JavaScript</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>React/Vue</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>UI/UX Design</span>
+                        <span>88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 88%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Node.js/PHP</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Phần Kinh Nghiệm -->
+    <section id="experience">
+        <h2 class="section-title">Kinh Nghiệm</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - Hiện tại</div>
+                <h3 class="timeline-title">Trưởng Nhóm Phát Triển Frontend</h3>
+                <div class="timeline-company">Công ty Công Nghệ FutureTech, Hà Nội</div>
+                <p>Lãnh đạo đội ngũ 8 developer phát triển giao diện người dùng cho các ứng dụng web và di động. Triển khai quy trình làm việc Agile/Scrum và tối ưu hóa hiệu suất hệ thống.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2019 - 2022</div>
+                <h3 class="timeline-title">Chuyên Viên UX/UI Designer</h3>
+                <div class="timeline-company">Công ty InnoDesign, TP.HCM</div>
+                <p>Thiết kế và phát triển giao diện người dùng cho hơn 20 dự án lớn. Phối hợp với nhóm marketing để tối ưu hóa trải nghiệm người dùng và tăng tỷ lệ chuyển đổi.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2017 - 2019</div>
+                <h3 class="timeline-title">Web Developer</h3>
+                <div class="timeline-company">Công ty TechSolutions, Đà Nẵng</div>
+                <p>Phát triển website thương mại điện tử và hệ thống quản lý nội dung. Triển khai các giải pháp đáp ứng cho các thiết bị di động và tối ưu SEO.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Phần Portfolio -->
+    <section id="portfolio">
+        <h2 class="section-title">Dự Án Tiêu Biểu</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image">Hình Ảnh Dự Án 1</div>
+                <div class="portfolio-info">
+                    <h3 class="portfolio-title">Ứng Dụng Quản Lý Tài Chính</h3>
+                    <div class="portfolio-category">Web Application</div>
+                    <p>Phát triển ứng dụng quản lý tài chính cá nhân với tính năng theo dõi chi tiêu, ngân sách và báo cáo trực quan.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image">Hình Ảnh Dự Án 2</div>
+                <div class="portfolio-info">
+                    <h3 class="portfolio-title">Website Bán Lẻ Thời Trang</h3>
+                    <div class="portfolio-category">E-commerce</div>
+                    <p>Thiết kế và phát triển website thương mại điện tử cho thương hiệu thời trang với tính năng thanh toán trực tuyến và quản lý kho hàng.</p>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image">Hình Ảnh Dự Án 3</div>
+                <div class="portfolio-info">
+                    <h3 class="portfolio-title">Ứng Dụng Đặt Phòng Khách Sạn</h3>
+                    <div class="portfolio-category">Mobile App</div>
+                    <p>Thiết kế giao diện và phát triển frontend cho ứng dụng di động đặt phòng khách sạn với hệ thống đánh giá và đề xuất.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Phần Liên Hệ -->
+    <section id="contact">
+        <h2 class="section-title">Liên Hệ</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">E</div>
+                <div class="contact-detail">
+                    <h4>Email</h4>
+                    <p>info@nguyenthanh.vn</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">P</div>
+                <div class="contact-detail">
+                    <h4>Điện Thoại</h4>
+                    <p>+84 912 345 678</p>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">L</div>
+                <div class="contact-detail">
+                    <h4>Địa Chỉ</h4>
+                    <p>Quận 1, TP. Hồ Chí Minh, Việt Nam</p>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form id="contactForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Họ và tên" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Tiêu đề">
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Tin nhắn" required></textarea>
+                </div>
+                <button type="submit" class="btn">Gửi Tin Nhắn</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <a href="#about">Về Tôi</a>
+                <a href="#experience">Kinh Nghiệm</a>
+                <a href="#portfolio">Dự Án</a>
+                <a href="#contact">Liên Hệ</a>
+            </div>
+            <div class="copyright">
+                &copy; <span id="currentYear"></span> Nguyễn Thanh. Tất cả các quyền được bảo lưu.
+            </div>
+        </div>
+    </footer>
 
-    <div class="thongtin">
-        <b>Ngày sinh:</b> <i>2003</i>
-    </div>
-
-    <div class="thongtin">
-        <b>Điện thoại:</b> <i>0369391446</i>
-    </div>
+    <script src="script.js"></script>
 </body>
 </html>
